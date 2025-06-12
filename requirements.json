@@ -1,0 +1,16 @@
+{
+    "original": "",
+    "difficulty": "hard",
+    "tags": [
+        "game-theory",
+        "combinatorics",
+        "simulation",
+        "greedy",
+        "backtracking",
+        "bitmask"
+    ],
+    "time": 5,
+    "space": 512,
+    "test_case_generator": "test_generator.py",
+    "test_case_generator_call": "python3 test_generator.py --num_tests 40"
+}

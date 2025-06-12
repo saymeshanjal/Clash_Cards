@@ -1,0 +1,6 @@
+[
+  {"test_case": 1, "time_sec": 0.002, "memory_kb": 2560},
+  {"test_case": 2, "time_sec": 0.004, "memory_kb": 2624},
+  {"test_case": 3, "time_sec": 0.001, "memory_kb": 2564},
+  {"test_case": 4, "time_sec": 0.003, "memory_kb": 2572}
+]
