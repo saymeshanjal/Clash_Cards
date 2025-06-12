@@ -8,15 +8,24 @@ This project provides a comprehensive test generation and validation system for 
 
 ```
 .
-├── test_generator.sh      # Master script to generate test cases and reference outputs
-├── test_runner.sh         # Script to compile and run the solution on all test cases
-├── validator.cpp          # Validates the correctness and format of test inputs
-├── solution.cpp           # main solution file 
-├── tests/
-│   ├── input/
-│   ├── output/
-│   └── verdicts/
-├── README.md
+card_clash/
+├── qwen/                      # Directory containing Qwen's failed solutions
+│   ├── solution_01.cpp        # First failed solution
+│   ├── solution_02.cpp        # Second failed solution
+│   ├── ...
+│   ├── solution_16.cpp        # 16th failed solution
+│   └── conversations.md       # Links to conversations that generated these solutions
+├── solution_correct.cpp       # Correct (optimal) solution implementation
+├── solution_bf.cpp           # Brute force solution (if applicable)
+├── prompt.md                 # Problem statement and requirements
+├── README.md                 # Project documentation
+├── test_generator.sh         # Test case generator (generates 40-50 test cases + valid outputs)
+├── test_runner.sh            # Script to run tests
+└── tests/                    # Directory containing test cases
+│   ├── test_sample.in/out                        # Sample test case for basic verification
+│   ├── test_01.in/out to test_04.in/out          # Small manual/edge test cases
+│   ├── test_big.in/out                           # Large manual test case
+│   └── test_gen_01.in/out to test_gen_40.in/out  # Generated test cases
 ```
 
 
